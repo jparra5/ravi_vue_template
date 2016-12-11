@@ -14,65 +14,31 @@ required:
 
 
 # Github repos
-github-repo-ansible:
+github-repo-chef:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "ansible"
-    repo_url: "https://github.com/ansible/ansible.git"
+    repo_name: "chef"
+    repo_url: "https://github.com/chef/chef.git"
     type: link
     has_issues: true
   hidden: [form, description]
 
-github-repo-ansible-modules-core:
+github-repo-chef-server:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "ansible-modules-core"
-    repo_url: "https://github.com/ansible/ansible-modules-core.git"
+    repo_name: "chef-server"
+    repo_url: "https://github.com/chef/chef-server.git"
     type: link
     has_issues: true
   hidden: [form, description]
 
-github-repo-ansible-modules-extra:
-  service_id: githubpublic
-  parameters:
-#    repo_name: "{{github.parameters.open-source-repo_name}}"
-#    repo_url: "{{github.parameters.open-source-repo_URL}}"
-#    type: new | clone | link | fork
-    repo_name: "ansible-modules-extras"
-    repo_url: "https://github.com/ansible/ansible-modules-extras.git"
-    type: link
-    has_issues: true
-  hidden: [form, description]
 
-github-repo-ansible-container:
-  service_id: githubpublic
-  parameters:
-#    repo_name: "{{github.parameters.open-source-repo_name}}"
-#    repo_url: "{{github.parameters.open-source-repo_URL}}"
-#    type: new | clone | link | fork
-    repo_name: "ansible-container"
-    repo_url: "https://github.com/ansible/ansible-container.git"
-    type: link
-    has_issues: true
-  hidden: [form, description]
-
-github-repo-ansible-lockdown:
-  service_id: githubpublic
-  parameters:
-#    repo_name: "{{github.parameters.open-source-repo_name}}"
-#    repo_url: "{{github.parameters.open-source-repo_URL}}"
-#    type: new | clone | link | fork
-    repo_name: "ansible-lockdown"
-    repo_url: "https://github.com/ansible/ansible-lockdown.git"
-    type: link
-    has_issues: true
-  hidden: [form, description]
 
 
 
