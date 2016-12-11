@@ -14,14 +14,14 @@ required:
 
 
 # Github repos
-github-repo-ambari:
+github-repo-ansible:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "ambari"
-    repo_url: "https://github.com/apache/ambari.git"
+    repo_name: "ansible"
+    repo_url: "https://github.com/apache/ansible.git"
     type: link
     has_issues: true
   hidden: [form, description]
