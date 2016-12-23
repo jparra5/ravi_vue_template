@@ -14,14 +14,14 @@ required:
 
 
 # Github repos
-github-repo-docker:
+github-repo-grafana:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "docker"
-    repo_url: "https://github.com/docker/docker.git"
+    repo_name: "grafana"
+    repo_url: "https://github.com/grafana/grafana.git"
     type: link
     has_issues: true
   hidden: [form, description]
